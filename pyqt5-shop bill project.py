@@ -1299,7 +1299,7 @@ class Ui_MainWindow(object):
             path=dat+str("\\")+ filename
             f=open(path,'w')
             lin1="DUBAI PARDHA PALACE".center(85)+'\n'
-            contact="Melechelari".center(42)+"Phone:9400434879".center(43)+'\n'
+            contact="Melechelari".center(42)+"Phone:9999999999".center(43)+'\n'
             lin2=(("Date: "+str(dati)+"  Time: "+k[3]).ljust(43)+ ("Billno: "+filecode).rjust(42)+'\n')
             lin3="Item".center(22)+"Count".center(23)+"Price".center(21)+"Total".center(23)+"\n"
             L=['-'*85+'\n',lin1,contact,'-'*85+'\n',lin2,'-'*85+'\n',lin3,'-'*85+'\n']
